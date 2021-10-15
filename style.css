@@ -1,0 +1,95 @@
+body{
+  background-image: url(image/background.jpg);
+  background-size: 100%;
+}
+.contenitore{
+  width: 900px;
+  height: 600px;
+  background-color:rgba(0, 0 ,0,0.75);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 5%;
+}
+ .logo > img {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 8%;
+  left: 42%;
+  bottom: 0;
+  right: 0;
+}
+.logo > h1 {
+  text-align: center;
+  color: rgb(0, 255, 0);
+  position: absolute;
+  top: 22%;
+  left: 0%;
+  bottom: 0;
+  right: 0;
+}
+.Barranavigazione{
+  width: 800px;
+  height: 30px;
+  background: green;
+  position: absolute;
+  top: 32%;
+  left: 5%;
+  bottom: 0%;
+  right: 0;
+}
+.Barranavigazione > Div {
+  text-align: center;
+}
+input[type=button]{
+  margin-top: 5px;
+  margin-left: 2px;
+}
+
+.monopattini{
+
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  bottom: 0%;
+  right: 0;
+}
+.monopattino1 h2, span{
+  display: inline-block;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.monopattino2 h2, span{
+  display: inline-block;
+  color: white;
+  margin-bottom: 5px;
+}
+.monopattino3 h2, span{
+  display: inline-block;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.monopattino1 input[type=text]{
+  width: 300px;
+  background-color: rgb(255, 129, 0);
+  border-radius: 5px;
+  border: 0;
+}
+.monopattino2 input[type=text] {
+  width: 500px;
+  background-color: rgb(0, 255, 0);
+  border-radius: 5px;
+  border: 0;
+}
+.monopattino3 input[type=text] {
+  width: 100px;
+  background-color: rgb(255, 0, 0);
+  border-radius: 5px;
+  border: 0;
+}
